@@ -7,12 +7,12 @@
 }
 
 body {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     color: #2C2C2C;
 }
 
 .container {
-    width: 72%;
+    width: 75%;
     margin: 0 auto;
 }
 
@@ -51,8 +51,11 @@ body {
 .btn {
     border-radius: 5px;
     padding: 10px ;
-    margin: 0 5px;
     border: 1px solid #FE775A;
+}
+
+.btn-large{
+    padding: 20px 30px;
 }
 
 .btn-orange {
@@ -60,10 +63,13 @@ body {
     color: white;
 }
 
+
 .list {
     display: inline-block;
     list-style: none;
 }
+
+
 
 
 /* header */
@@ -84,6 +90,7 @@ body {
 }
 
 #login {
+    margin-right: 5px;
     color: #FE775A;
     background-color: white;
 }
@@ -101,10 +108,44 @@ body {
 }
 
 #jumbotron {
-    height: 600px;
+    height: 700px;
+    position: relative;
     background-image: url(../img/jumbotron.png);
     background-size: cover;
-    background-position-y: 17%;
+    background-position: bottom;
+}
+
+#img-row {
+    height: 84px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #AFEBE4;
+    border-top: 3.5px  solid #33475B;
+    border-bottom: 3.5px  solid #33475B;
+}
+
+#jumbotron-text {
+    width: 40%;
+    padding-right: 30px;
+    padding-top: 80px;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 53px;
+    color: #33475B;
+}
+
+#jumbotron  p {
+    margin: 30px 0 50px 0;
+    color: #33475B;
+    font-weight: 600;
+}
+
+#jumbotron p:last-child {
+    margin-top: 50px;
+    font-size: 13px;
 }
 
 
