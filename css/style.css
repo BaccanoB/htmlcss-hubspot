@@ -101,8 +101,10 @@ body {
 }
 
 #jumbotron {
-    height: 400px;
-    background-color:green ;
+    height: 600px;
+    background-image: url(../img/jumbotron.png);
+    background-size: cover;
+    background-position-y: 17%;
 }
 
 
