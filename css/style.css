@@ -38,6 +38,10 @@ body {
     color: #2C2C2C;
 }
 
+.link:hover {
+    opacity: 50%;
+}
+
 .fa-chevron-down,
 #logo {
     vertical-align: middle;
