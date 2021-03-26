@@ -31,11 +31,21 @@ body {
 }
 
 .link {
-    padding: 0 10px;
+    padding: 0 10px 0 10px;
     text-decoration: none;
     font-size: 13px;
-    font-weight: 700;
+    font-weight: 600;
     color: #2C2C2C;
+}
+
+.fa-chevron-down,
+#logo {
+    vertical-align: middle;
+}
+
+#fixed-col-right,
+#logo-col-right {
+    text-align: right;
 }
 
 .btn {
@@ -50,6 +60,10 @@ body {
     color: white;
 }
 
+.list {
+    display: inline-block;
+    list-style: none;
+}
 
 
 /* header */
@@ -58,15 +72,11 @@ body {
     position: fixed;
     top: 0;
     z-index: 2;
-    height: 60px;
+    height: 80px;
     width: 100%;
-    line-height: 60px;
+    line-height: 80px;
     background-color: #F4F9FD;
     border-bottom:2px solid #2C2C2C;
-}
-
-#fixed-col-right {
-    text-align: right;
 }
 
 #en {
@@ -84,8 +94,10 @@ body {
 }
 
 #logo-bar {
-    height: 60px;
-    background-color: yellow;
+    margin-top: 80px;
+    height: 80px;
+    line-height: 80px;
+    background-color: #fdfaf7;
 }
 
 #jumbotron {
