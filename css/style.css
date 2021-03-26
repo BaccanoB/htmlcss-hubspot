@@ -73,7 +73,11 @@ body {
     list-style: none;
 }
 
-
+.box-main1 {
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid #dfeaf8;
+}
 
 
 /* header */
@@ -153,7 +157,7 @@ h1 {
 /* main */
 
 main-1-section {
-    background-color: #F4F9FD;
+    background-color: #F5F8FA;
 }
 
 #cube-section {
@@ -177,4 +181,21 @@ main-1-section {
 h4 {
     margin: 30px 0;
 }
+
+#book-section {
+    height: 300px;   
+}
+
+#col {
+    height: 550px;
+    margin-top: 30px;
+}
+
+.col-icon {
+    width: 33%;
+    height: 100%;
+    background-color: violet;
+}
+
+
 /* footer */
