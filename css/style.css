@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Nunito', sans-serif;
-    color: #1E1E1E;
+    color: #2C2C2C;
 }
 
 .container {
@@ -31,21 +31,56 @@ body {
 }
 
 .link {
-    padding-right: 20px;
+    padding: 0 10px;
     text-decoration: none;
     font-size: 13px;
     font-weight: 700;
-    color: #1E1E1E;
+    color: #2C2C2C;
 }
+
+.btn {
+    border-radius: 5px;
+    padding: 10px ;
+    margin: 0 5px;
+    border: 1px solid #FE775A;
+}
+
+.btn-orange {
+    background-color: #FE775A;
+    color: white;
+}
+
+
 
 /* header */
 
 #fixed-bar {
+    position: fixed;
+    top: 0;
+    z-index: 2;
     height: 60px;
+    width: 100%;
+    line-height: 60px;
+    background-color: #F4F9FD;
+    border-bottom:2px solid #2C2C2C;
+}
+
+#fixed-col-right {
+    text-align: right;
+}
+
+#en {
+    border-right: 1px solid #2C2C2C;
 }
 
 #login {
-    text-align: right;
+    color: #FE775A;
+    background-color: white;
+}
+
+.fa-search {
+    padding: 0 10px;
+    color: #00ACB6;
 }
 
 #logo-bar {
