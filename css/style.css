@@ -124,7 +124,7 @@ h2,
     border-radius: 50%;
     text-align: center;
     background-color: #FE775A;
-    color: white;  
+    color: white;
     font-size: 10px;
     vertical-align: middle;
 }
@@ -137,6 +137,8 @@ h2,
 
 
 /* header */
+
+/* fixed */
 
 #fixed-bar {
     position: fixed;
@@ -161,6 +163,8 @@ h2,
     color: #00ACB6;
 }
 
+/* barra con il logo */
+
 #logo-bar {
     height: 80px;
     line-height: 80px;
@@ -175,6 +179,8 @@ h2,
 .fa-chevron-down {
     padding-left: 15px;
 }
+
+/* jumbotron */
 
 #jumbotron {
     height: 700px;
@@ -216,9 +222,13 @@ h1 {
 
 /* main */
 
+/* Prima sezione del main */
+
 #main-1-section{
     padding-bottom: 50px;
 }
+
+/* sezione con il cubo */
 
 #cube-container {
     width: 25%;
@@ -234,6 +244,8 @@ h1 {
 #cube-section  h4 {
     padding: 30px 100px;
 }
+
+/* sezione con il libro */
 
 #book-section {
     padding: 30px 0;
@@ -271,6 +283,8 @@ hr {
     border: 1px solid #33475B;
 }
 
+/* sezione con le tre colonne */
+
 .col-hub {
     height: 100%;
     padding: 20px 25px 20px 30px;
@@ -306,19 +320,24 @@ hr {
 .hub-image {
     height: 100px;
 }
+
+/* secona sezione del main */
+
 #main-2-section {
     color: white;
     background-image: linear-gradient(to left, #00BAA8, #00A8B9);
 }
 
 #text-blu-section {
-    padding: 40px 0;  
+    padding: 40px 0;
 }
 
 #blu-section-title {
     font-size: 30px;
     margin-bottom: 20px;
 }
+
+/* tabella */
 
 #tabel{
     width: 100%;
@@ -355,5 +374,57 @@ hr {
     font-size: 25px;
     vertical-align: middle;
 }
+
+/* terza sezione del main */
+
+/* sezione con i loghi */
+
+#logo-tabel-section {
+    width: 70%;
+    margin: 0 auto;
+    height: 300px;
+}
+
+#txt-logotabel {
+    width: 30%;
+    padding: 50px;
+}
+
+#txt-logotabel h2 {
+    font-size: 42px;
+}
+
+#txt-logotabel p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+#logo-tabel {
+    width: 70%;
+    padding: 60px 0 0 90px;
+}
+
+#logo-tabel-container {
+    width: 100%;
+}
+
+.big-logo {
+    height: 30px;
+}
+
+.logo-box {
+    width: 20%;
+}
+
+.logo-tabel-img {
+    height: 10px;
+}
+
+#logo-tabel-row {
+    margin-bottom: 40px;
+}
+
+
+
 
 /* footer */
