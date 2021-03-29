@@ -27,6 +27,12 @@ body {
     float: left;
 }
 
+h1,
+h2,
+.popolar {
+    font-weight: bolder;
+}
+
 .w50 {
     width: 50%;
 }
@@ -43,6 +49,11 @@ body {
 }
 
 .link:hover {
+    color: #00ACB6;
+    text-decoration:underline;
+}
+
+.btn:hover {
     opacity: 50%;
 }
 
@@ -73,19 +84,19 @@ hr {
 }
 
 .list {
-    display: inline-block;
     list-style: none;
 }
 
-.box-main1 {
-    background-color: white;
+.box-main1,
+.col-hub{
     border-radius: 5px;
     border: 1px solid rgba(244,249,253, 0.7);
     box-shadow: 1px 1px 15px #d3e2e9;
 }
 
 .box-main1,
-#login{
+#login,
+.col-hub{
     background-color: white;
 }
 
@@ -107,16 +118,22 @@ hr {
     width: 100%;
 }
 
+
 #cube-section,
 #book-col-left,
-.check {
+.check,
+.col-hub {
     text-align: center;
 }
 
 #book-col-right h4,
-#book-col-right hr{
-    text-transform: uppercase;
+#book-col-right hr,
+#book-col-right .list{
     display: inline-block;
+}
+
+.popolar {
+    text-transform: uppercase;
 }
 
 
@@ -127,7 +144,7 @@ hr {
 .check::before {
     content: "\2714";
     display: inline-block;
-    margin-right: 15px;
+    margin-right: 10px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -135,6 +152,17 @@ hr {
     color: white;  
     font-size: 10px;
     vertical-align: middle;
+}
+
+.hub-img{
+    width: 35%;
+}
+
+
+.col-hub p {
+    padding: 20px 0 70px 0;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #33475B;
 }
 
 /* header */
@@ -163,6 +191,10 @@ hr {
 #logo-bar {
     margin-top: 80px;
     background-color: #fdfaf7;
+}
+
+.fa-chevron-down {
+    padding-left: 15px;
 }
 
 #jumbotron {
@@ -226,17 +258,17 @@ h1 {
 
 #book-col-left{
     width: 30%;
-    padding: 20px;
+    padding: 20px 0 20px 20px;
 }
 
-#book-col-left > img {
+ #book-col-left img{
     width: 50%;
     margin-bottom: 30px;
 }
 
 #book-col-right {
     width: 70%;
-    padding: 0 35px;
+    padding-right: 50px;
 }
 
 
@@ -251,16 +283,32 @@ hr {
 }
 
 
-#col {
+#hub-section {
     height: 550px;
     margin-top: 30px;
 }
 
-.col-icon {
-    width: 33.3%;
+.col-hub {
+    width: 30%;
     height: 100%;
-    background-color: violet;
+    padding: 20px 25px 20px 30px;
 }
+
+#sales-col {
+    margin: 0 5%;
+}
+
+#sales-img {
+    width: 40%;
+}
+
+
+.hub-list {
+    margin-top: 20px;
+    text-align: left;
+}
+
+
 
 
 /* footer */
