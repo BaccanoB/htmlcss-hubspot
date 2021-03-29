@@ -57,14 +57,11 @@ h2,
     opacity: 50%;
 }
 
-.fa-chevron-down,
-#logo,
-hr {
+.fa-chevron-down{
     vertical-align: middle;
 }
 
-#fixed-col-right,
-#logo-col-right {
+.txt-r{
     text-align: right;
 }
 
@@ -94,35 +91,21 @@ hr {
     box-shadow: 1px 1px 15px #d3e2e9;
 }
 
-.box-main1,
-#login,
-.col-hub{
+.bg-white{
     background-color: white;
 }
 
 
-#fixed-bar,
-#main-1-section{
+.bg-color{
     background-color: #F4F9FD;
 }
 
-#fixed-bar,
-#logo-bar{
-    height: 80px;
-    line-height: 80px;
-}
-
-#cube-img,
-#img-row,
-#fixed-bar{
+.w100{
     width: 100%;
 }
 
 
-#cube-section,
-#book-col-left,
-.col-hub,
-#main-2-section {
+.txt-a {
     text-align: center;
 }
 
@@ -131,10 +114,6 @@ hr {
     margin-bottom: 10px;
 }
 
-
-.book-text {
-    padding: 15px 15px;
-}
 
 .check::before {
     content: "\2714";
@@ -150,62 +129,12 @@ hr {
     vertical-align: middle;
 }
 
-.col-hub {
-    height: 100%;
-    padding: 20px 25px 20px 30px;
-}
-
-.col-hub p {
-    padding: 20px 0 70px 0;
-    padding-bottom: 30px;
-}
-
-.hub-text {
-    height: 50%;
-    border-bottom: 2px solid #33475B;
-}
-
-.hub-list {
-    margin: 30px 0;
-}
-
-.hub-list-container {
-    margin-bottom: 50px;
-    text-align: left;
-}
-
-#buble-img,
 .col-hub,
 #book-col-left {
     width: 30%;
 }
 
-.box-tabel {
-    width: 25%;
-    height: 200px;
-    padding: 20px 0;
-    border-left:1px solid white
-}
 
-.border {
-    border-top: 1px solid white;
-}
-
-.numbers {
-    margin: 10px 0;
-    font-size: 40px;
-}
-
-.text-numbers {
-    font-size: 13px;
-}
-
-.numbers::after {
-    content: "\002B";
-    padding-left: 5px;
-    font-size: 25px;
-    vertical-align: middle;
-}
 
 /* header */
 
@@ -213,6 +142,8 @@ hr {
     position: fixed;
     top: 0;
     z-index: 2;
+    height: 80px;
+    line-height: 80px;
     border-bottom:2px solid #2C2C2C;
 }
 
@@ -231,8 +162,14 @@ hr {
 }
 
 #logo-bar {
+    height: 80px;
+    line-height: 80px;
     margin-top: 80px;
     background-color: #fdfaf7;
+}
+
+#logo {
+    vertical-align: middle;
 }
 
 .fa-chevron-down {
@@ -307,7 +244,6 @@ h1 {
 }
 
 #book-col-left img{
-    width: 50%;
     margin-bottom: 30px;
 }
 
@@ -321,14 +257,42 @@ h1 {
     display: inline-block;
 }
 
+.book-text {
+    padding: 15px 15px;
+}
+
 #popular-feature {
     line-height: 100%;
 }
 
 hr {
-    width: 50%;
     margin: 0 50px;
+    vertical-align: middle;
     border: 1px solid #33475B;
+}
+
+.col-hub {
+    height: 100%;
+    padding: 20px 25px 20px 30px;
+}
+
+.col-hub p {
+    padding: 20px 0 70px 0;
+    padding-bottom: 30px;
+}
+
+.hub-text {
+    height: 50%;
+    border-bottom: 2px solid #33475B;
+}
+
+.hub-list {
+    margin: 30px 0;
+}
+
+.hub-list-container {
+    margin-bottom: 50px;
+    text-align: left;
 }
 
 #hub-section {
@@ -339,14 +303,9 @@ hr {
     margin: 0 5%;
 }
 
-#office-img{
-    width: 37%;
+.hub-image {
+    height: 100px;
 }
-
-#table-img{
-    width: 27%;
-}
-
 #main-2-section {
     color: white;
     background-image: linear-gradient(to left, #00BAA8, #00A8B9);
@@ -368,6 +327,33 @@ hr {
 
 .tabel-row div:first-child {
     border-left: none;
+}
+
+.box-tabel {
+    width: 25%;
+    height: 200px;
+    padding: 20px 0;
+    border-left:1px solid white
+}
+
+.border {
+    border-top: 1px solid white;
+}
+
+.numbers {
+    margin: 10px 0;
+    font-size: 40px;
+}
+
+.text-numbers {
+    font-size: 13px;
+}
+
+.numbers::after {
+    content: "\002B";
+    padding-left: 5px;
+    font-size: 25px;
+    vertical-align: middle;
 }
 
 /* footer */
