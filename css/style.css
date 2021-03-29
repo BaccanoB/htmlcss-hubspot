@@ -75,7 +75,7 @@ hr {
 }
 
 .btn-large{
-    padding: 20px 30px;
+    padding: 20px 40px;
 }
 
 .btn-orange {
@@ -121,19 +121,13 @@ hr {
 
 #cube-section,
 #book-col-left,
-.check,
 .col-hub {
     text-align: center;
 }
 
-#book-col-right h4,
-#book-col-right hr,
-#book-col-right .list{
-    display: inline-block;
-}
-
 .popolar {
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 
@@ -148,21 +142,41 @@ hr {
     width: 15px;
     height: 15px;
     border-radius: 50%;
+    text-align: center;
     background-color: #FE775A;
     color: white;  
     font-size: 10px;
     vertical-align: middle;
 }
 
-.hub-img{
-    width: 35%;
+.col-hub {
+    height: 100%;
+    padding: 20px 25px 20px 30px;
 }
-
 
 .col-hub p {
     padding: 20px 0 70px 0;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+.hub-text {
+    height: 50%;
     border-bottom: 2px solid #33475B;
+}
+
+.hub-list {
+    margin: 30px;
+}
+
+.hub-list-container {
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+#buble-img,
+.col-hub,
+#book-col-left {
+    width: 30%;
 }
 
 /* header */
@@ -257,7 +271,6 @@ h1 {
 }
 
 #book-col-left{
-    width: 30%;
     padding: 20px 0 20px 20px;
 }
 
@@ -270,7 +283,11 @@ h1 {
     width: 70%;
     padding-right: 50px;
 }
-
+#book-col-right h4,
+#book-col-right hr,
+#book-col-right .list{
+    display: inline-block;
+}
 
 #popular-feature {
     line-height: 100%;
@@ -282,31 +299,22 @@ hr {
     border: 1px solid #33475B;
 }
 
-
 #hub-section {
-    height: 550px;
     margin-top: 30px;
-}
-
-.col-hub {
-    width: 30%;
-    height: 100%;
-    padding: 20px 25px 20px 30px;
 }
 
 #sales-col {
     margin: 0 5%;
 }
 
-#sales-img {
-    width: 40%;
+#office-img{
+    width: 37%;
 }
 
-
-.hub-list {
-    margin-top: 20px;
-    text-align: left;
+#table-img{
+    width: 27%;
 }
+
 
 
 
