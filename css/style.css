@@ -121,7 +121,8 @@ hr {
 
 #cube-section,
 #book-col-left,
-.col-hub {
+.col-hub,
+#main-2-section {
     text-align: center;
 }
 
@@ -165,7 +166,7 @@ hr {
 }
 
 .hub-list {
-    margin: 30px;
+    margin: 30px 0;
 }
 
 .hub-list-container {
@@ -251,6 +252,10 @@ h1 {
 
 /* main */
 
+#main-1-section{
+    padding-bottom: 50px;
+}
+
 #cube-container {
     width: 25%;
     margin: 0 auto;
@@ -274,7 +279,7 @@ h1 {
     padding: 20px 0 20px 20px;
 }
 
- #book-col-left img{
+#book-col-left img{
     width: 50%;
     margin-bottom: 30px;
 }
@@ -315,8 +320,20 @@ hr {
     width: 27%;
 }
 
+#main-2-section {
+    height: 500px;
+    color: white;
+    background-image: linear-gradient(to left, #00BAA8, #00A8B9);
+}
 
+#text-blu-section {
+    padding: 40px 0;  
+}
 
+#blu-section-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
 
 
 /* footer */
