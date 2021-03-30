@@ -315,7 +315,7 @@ hr {
     height: 100px;
 }
 
-/* secona sezione del main */
+/* seconda sezione del main */
 
 #main-2-section {
     color: white;
@@ -380,7 +380,7 @@ hr {
 }
 
 #txt-logotabel {
-    width: 30%;
+    width: 25%;
     padding: 50px;
 }
 
@@ -394,14 +394,15 @@ hr {
 }
 
 #logo-tabel {
-    width: 70%;
+    width: 65%;
     height: 30px;
     line-height: 30px;
     padding: 60px 0 0 70px;
+    margin-left: 80px;
 }
 
 #logo-tabel-container {
-    width: 100%;
+    width: 95%;
 }
 
 .big-logo {
@@ -413,11 +414,35 @@ hr {
 }
 
 .little-logo {
-    height: 13px;
+    height: 14px;
 }
 
 #logo-tabel-row {
     margin-bottom: 60px;
+}
+
+/* sezione con img di persona */
+
+#growing-section {
+    width: 45%;
+    height: 200px;
+}
+#growing-section h2 {
+    font-size: 35px;
+}
+#growing-section p {
+    margin: 40px 0 50px 0;
+}
+#growing-section p:last-child {
+    font-size: 13px;
+}
+
+#woman-section {
+    width: 55%;
+}
+
+#woman-img {
+    height: 350px;
 }
 
 /* footer */
