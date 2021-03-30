@@ -278,18 +278,20 @@ hr {
 /* sezione con le tre colonne */
 
 .col-hub {
-    height: 100%;
     padding: 20px 25px 20px 30px;
 }
 
 .col-hub p {
-    padding: 20px 0 70px 0;
-    padding-bottom: 30px;
+    padding: 20px 0 30px 0;
 }
 
 .hub-text {
     height: 50%;
     border-bottom: 2px solid #33475B;
+}
+
+.hub-p {
+    height: 150px;
 }
 
 .hub-list {
@@ -336,7 +338,7 @@ hr {
     padding-bottom: 40px;
 }
 
-.tabel-row div:first-child {
+.tabel-row .box-tabel:first-child {
     border-left: none;
 }
 
