@@ -523,3 +523,50 @@ footer {
     font-size: 16px;
 }
 
+/* robot */
+
+#robot-fixed {
+    position: fixed;
+    right: 0;
+    bottom: 20px;
+    z-index: 3;
+    width: 270px;
+    height: 200px;
+}
+
+#robot-section {
+    height: 60%;
+    padding: 30px;
+    position:relative;
+    margin: 0 20px;
+    border-radius: 5px;
+    border: 1px solid #32495B;
+}
+
+#robot {
+    width: 22%;
+    position: absolute;
+    bottom: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#balloon-section {
+    height: 30%;
+    padding: 10px 20px 0 0;
+}
+
+#balloon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 15px;
+    background-color: #425B76;
+}
+
+#x {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+}
