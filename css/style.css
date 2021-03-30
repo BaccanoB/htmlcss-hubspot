@@ -27,6 +27,10 @@ body {
     float: left;
 }
 
+.db {
+    display: block;
+}
+
 .d-ib {
     display: inline-block;
 }
@@ -181,6 +185,25 @@ h2,
     padding: 0 10px;
     color: #00ACB6;
 }
+
+/* dropdown */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 115px;
+    padding: 5px 9px;
+    border-radius: 5px;
+    border: 1px solid #2C2C2C;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dd-language {
+      line-height: 25px;
+  }
 
 /* barra con il logo */
 
