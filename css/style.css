@@ -27,6 +27,18 @@ body {
     float: left;
 }
 
+.d-ib {
+    display: inline-block;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.fs-35 {
+    font-size: 35px;
+}
+
 .txt-r{
     text-align: right;
 }
@@ -59,6 +71,10 @@ body {
 
 .w50 {
     width: 50%;
+}
+
+.w25 {
+    width: 25%;
 }
 
 h1,
@@ -216,7 +232,6 @@ h1 {
 
 #jumbotron p:last-child {
     margin-top: 50px;
-    font-size: 13px;
 }
 
 /* main */
@@ -230,14 +245,10 @@ h1 {
 /* sezione con il cubo */
 
 #cube-container {
-    width: 25%;
     margin: 0 auto;
     padding-top: 30px;
 }
 
-#cube-text h2 {
-    font-size: 35px;
-}
 
 #cube-section  h4 {
     padding: 30px 100px;
@@ -260,11 +271,6 @@ h1 {
 #book-col-right {
     width: 70%;
     padding-right: 50px;
-}
-#book-col-right h4,
-#book-col-right hr,
-#book-col-right .list{
-    display: inline-block;
 }
 
 .book-text {
@@ -291,7 +297,6 @@ hr {
 }
 
 .hub-text {
-    height: 50%;
     border-bottom: 2px solid #33475B;
 }
 
@@ -347,7 +352,6 @@ hr {
 }
 
 .box-tabel {
-    width: 25%;
     height: 200px;
     padding: 20px 0;
     border-left:1px solid white
@@ -380,11 +384,9 @@ hr {
 #logo-tabel-section {
     width: 70%;
     margin: 0 auto;
-    height: 300px;
 }
 
 #txt-logotabel {
-    width: 25%;
     padding: 50px;
 }
 
@@ -413,10 +415,6 @@ hr {
     height: 35px;
 }
 
-.logo-box {
-    width: 25%;
-}
-
 .little-logo {
     height: 14px;
 }
@@ -430,14 +428,10 @@ hr {
 #growing-section {
     width: 45%;
 }
-#growing-section h2 {
-    font-size: 35px;
-}
 #growing-section p {
     margin: 40px 0 50px 0;
 }
 #growing-section p:last-child {
-    font-size: 13px;
     margin: 60px 0;
 }
 
@@ -462,7 +456,6 @@ footer {
 /* sezione colonne footer */
 
 .contact-col {
-    width: 25%;
     padding-top: 20px;
 }
 
