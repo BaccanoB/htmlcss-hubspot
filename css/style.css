@@ -273,8 +273,10 @@ h2,
     height: 700px;
     position: relative;
     background-image: url(../img/jumbotron.png);
-    background-size: cover;
-    background-position: bottom;
+    background-size: 90% 100%;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-color: #FFF5EE;
 }
 
 #img-row {
