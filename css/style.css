@@ -120,6 +120,7 @@ h2,
     border-radius: 5px;
     padding: 10px ;
     border: 1px solid #FE775A;
+    transition: .5s;
 }
 
 .btn-large{
@@ -194,7 +195,6 @@ h2,
 
 .dropdown-content {
     display: none;
-    position: absolute;
     padding: 5px 9px;
     border-radius: 5px;
     border: 1px solid #2C2C2C;
