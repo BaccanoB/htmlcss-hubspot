@@ -51,6 +51,10 @@ body {
     text-align: center;
 }
 
+.txt-l{
+    text-align: left;
+}
+
 .va {
     vertical-align: middle;
 }
@@ -191,7 +195,6 @@ h2,
 .dropdown-content {
     display: none;
     position: absolute;
-    min-width: 115px;
     padding: 5px 9px;
     border-radius: 5px;
     border: 1px solid #2C2C2C;
@@ -217,6 +220,52 @@ h2,
 .fa-chevron-down {
     padding-left: 15px;
 }
+
+/* dropdown-logo */
+
+.dropdown-logo {
+    position: relative;
+    display: inline-block;
+  }
+  
+.dropdown-content-logo {
+    width: 500px;
+    line-height: 13px;
+    display: none;
+    position: absolute;
+    right: 13%;
+    top: 72%;
+    background-color: #fdfaf7;
+    border: 1px solid #2C2C2C;
+    border-radius: 10px;
+    padding: 5px 0 5px 10px;
+    z-index: 1;
+  }
+
+  .dropdown-content-logo li {
+      margin: 20px 0 20px 0;
+  }
+  
+  .dropdown-logo:hover .dropdown-content-logo { 
+    display: block;
+  }
+
+  .dropdown-col {
+      width: 155px;
+      padding-top: 20px;
+  }
+
+  .dropdown-link {
+    color: #2C2C2C;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.dropdown-link:hover {
+    color: #00ACB6;
+}
+
 
 /* jumbotron */
 
